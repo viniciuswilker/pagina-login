@@ -1,0 +1,159 @@
+ /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url(assets/bck3.jpg) center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.login-box{
+    width: 400px;
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2em;
+}
+
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+
+}
+
+.login-box .input-box{
+    position: relative;
+}
+
+.login-box .input-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.login-box .input-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+
+}
+
+.login-box .input-box input:focus ~ label,
+.login-box .input-box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+}
+
+
+.btn{
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 10px 120px;
+    color: black;
+    background-color: white;
+    border-radius: 1em;
+    transition: 0.4s ease-in-out;
+    font-size: 18px;
+    margin: 25px 0 ;
+    letter-spacing: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.sign-up a{
+    color: white;
+    text-decoration: none;
+}
+
+.sign-up a:hover{
+    text-decoration: underline;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 14px;
+    color: white;
+}
+
+.socials-login{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+
+.socials-login span{
+    color: white;
+    font-size: 14px;
+    margin-top: 1em;
+}
+
+hr{
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 1em;
+    height: 3px;
+    margin: 5px 50px ;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: center;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 1em;
+    color: white;
+    transform: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: white;
+    color: black;
+}

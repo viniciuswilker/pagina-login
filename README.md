@@ -1,6 +1,6 @@
 # Estudo (PAGINA DE LOGIN)
 
-Um estudo de criação de uma página de login moderna
+Um estudo de criação de uma página de login moderna.
 
 ![Fotosite](assets/site.png)
 
